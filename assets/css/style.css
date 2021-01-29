@@ -79,6 +79,7 @@ h4 {
     -webkit-transition: box-shadow 0.25s ease-in-out;
     -o-transition: box-shadow 0.25s ease-in-out;
     -ms-transition: box-shadow 0.25s ease-in-out;
+    
 }
 
 .btn-fill {
@@ -100,6 +101,9 @@ h4 {
 .btn:hover,
 .btn:focus {
     box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+    border-style: solid;
+    border-left-width:0.25em;
+    border-image: linear-gradient(#40e0d0,#ff8c00,#098d30)2;
 }
 
 /* Input fields */
@@ -383,7 +387,7 @@ html{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index:1;
     transition: background-color 0.25s ease-in-out;
     -moz-transition: background-color 0.25s ease-in-out;
     -webkit-transition: background-color 0.25s ease-in-out;
@@ -454,7 +458,7 @@ html{
 .modal-header {
     position: relative;
     padding: 0;
-    height: 500px;
+    height:500px;
 }
 
 .modal-header .close {
