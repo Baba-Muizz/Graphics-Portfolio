@@ -534,7 +534,7 @@ html{
 /* FOOTER
 ================================================== */
 .site-footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     padding: 30px 0;
     width: 100%;
