@@ -590,7 +590,6 @@ a.icon-up-bg:hover {color: #212121;}
 }
 
 .typewriter-text {
-    display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
@@ -614,4 +613,4 @@ a.icon-up-bg:hover {color: #212121;}
     from, to { 
         border-color: transparent 
     }
- 
+}
