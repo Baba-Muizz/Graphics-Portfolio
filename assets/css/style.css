@@ -12,7 +12,7 @@
   font-family: 'fontello';
   src: url('../fonts/fontello.eot?37927580');
   src: url('../fonts/fontello.eot?37927580#iefix') format('embedded-opentype'),
-       url('../fonts/fontello.woff2?37927580') format('woff2'),
+       url('../fonts/fontello.woff2?37927580') format('woff2')
        url('../fonts/fontello.woff?37927580') format('woff'),
        url('../fonts/fontello.ttf?37927580') format('truetype'),
        url('../fonts/fontello.svg?37927580#fontello') format('svg');
@@ -616,4 +616,23 @@ a.icon-up-bg:hover {color: #212121;}
     from, to { 
         border-color: transparent 
     }
+}
+
+
+
+
+
+
+body, html{
+    width: 100%;
+}
+
+
+
+body{
+    width: 100%;
+}
+
+html{
+    width: 100%;
 }
